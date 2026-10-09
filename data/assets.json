@@ -1,0 +1,52 @@
+{
+  "hosts": {
+    "WKS-HR-014": {
+      "owner": "HR Operations",
+      "criticality": 2,
+      "data_class": "Internal",
+      "environment": "Workstation"
+    },
+    "DBA-JUMP-02": {
+      "owner": "IT Database Team",
+      "criticality": 3,
+      "data_class": "Internal",
+      "environment": "Jump host"
+    },
+    "FIN-DB-01": {
+      "owner": "Finance IT",
+      "criticality": 5,
+      "data_class": "Confidential (financial records)",
+      "environment": "Production database"
+    },
+    "WEB-PORTAL-01": {
+      "owner": "Digital Channels",
+      "criticality": 4,
+      "data_class": "Customer-facing",
+      "environment": "Production web"
+    },
+    "VENDOR-VPN-GW": {
+      "owner": "IT Infrastructure",
+      "criticality": 3,
+      "data_class": "Network edge",
+      "environment": "VPN gateway"
+    }
+  },
+  "networks": {
+    "198.51.100.": {
+      "name": "Third-party vendor VPN pool (198.51.100.0/24)",
+      "vendor_access": true
+    },
+    "203.0.113.": {
+      "name": "External / Internet (203.0.113.0/24)",
+      "vendor_access": false
+    },
+    "10.": {
+      "name": "Internal corporate network",
+      "vendor_access": false
+    },
+    "192.0.2.": {
+      "name": "External / Internet (192.0.2.0/24)",
+      "vendor_access": false
+    }
+  }
+}

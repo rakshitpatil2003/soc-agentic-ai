@@ -1,0 +1,10 @@
+{
+  "source": "Local TI snapshot (demo data, fictional indicators from documentation IP ranges)",
+  "indicators": {
+    "8f14e45fceea167a5a36dedd4bea2543": {"verdict": "malicious", "confidence": 0.90, "actor": "Commodity malware (loader)", "tags": ["malware", "loader"]},
+    "203.0.113.45": {"verdict": "malicious", "confidence": 0.95, "actor": "APT-Nimbus (suspected)", "tags": ["apt", "c2", "lateral-movement"]},
+    "192.0.2.77": {"verdict": "suspicious", "confidence": 0.70, "actor": "Unknown", "tags": ["credential-stuffing", "tor-exit"]},
+    "cdn-update.badhost.example": {"verdict": "malicious", "confidence": 0.85, "actor": "APT-Nimbus (suspected)", "tags": ["c2"]},
+    "10.20.30.41": {"verdict": "benign", "confidence": 0.99, "actor": "Internal DBA jump host", "tags": ["internal"]}
+  }
+}

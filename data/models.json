@@ -1,0 +1,5 @@
+[
+  {"label": "Llama 3.1 8B",  "id": "meta-llama/llama-3.1-8b-instruct"},
+  {"label": "Qwen 2.5 72B",  "id": "qwen/qwen-2.5-72b-instruct"},
+  {"label": "Mistral 7B",    "id": "mistralai/mistral-7b-instruct"}
+]
